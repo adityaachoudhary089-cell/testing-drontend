@@ -10,7 +10,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '5B+',
     tags: ['browser', 'web', 'google', 'chromium'],
-    imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fthetechhacker.com%2F2016%2F11%2F06%2Fchrome-urls%2F&psig=AOvVaw1_jvKTpgcHP77CiYoA5N-W&ust=1758902541679000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIi48duk9I8DFQAAAAAdAAAAABAE'
+    imageUrl: 'public/app-icons/browser/chrome.png'
   },
   'firefox': {
     displayName: 'Mozilla Firefox',
