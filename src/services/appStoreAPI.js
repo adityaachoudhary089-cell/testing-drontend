@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 const appStoreAPI = axios.create({
-  baseURL: import.meta.env.VITE_APPSTORE_API_URL || 'http://localhost:3000',
+  baseURL: import.meta.env.VITE_APPSTORE_API_URL || 'https://backend2-ponc.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
 
