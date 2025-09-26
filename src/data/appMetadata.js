@@ -32,7 +32,7 @@ export const appMetadata = {
     rating: 4.0,
     downloads: '50M+',
     tags: ['browser', 'open-source', 'chromium'],
-    imageUrl: '/src/assets/app-icons/browser/chromium.png'
+    imageUrl: '/app-icons/browser/chromium.png'
   },
   'brave': {
     displayName: 'Brave Browser',
@@ -43,7 +43,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '100M+',
     tags: ['browser', 'privacy', 'ad-blocker', 'crypto'],
-    imageUrl: '/src/assets/app-icons/browser/brave.png'
+    imageUrl: '/app-icons/browser/brave.png'
   },
   'opera': {
     displayName: 'Opera',
