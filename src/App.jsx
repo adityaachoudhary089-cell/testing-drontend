@@ -12,11 +12,60 @@ import { AppStore } from './components/AppStore';
 import { Documentation } from './components/Documentation';
 import { Upcoming } from './components/Upcoming';
 
+
+
+// Backend Wake-up Service
+class BackendWakeupService {
+  constructor() {
+    this.backends = [
+      {
+        name: 'Auth API',
+        url: process.env.REACT_APP_API_URL || process.env.VITE_API_URL || 'https://backend1-rexi.onrender.com'
+      },
+      {
+        name: 'App Store API', 
+        url: process.env.REACT_APP_APPSTORE_API_URL || process.env.VITE_APPSTORE_API_URL || 'https://backend2-ponc.onrender.com'
+      }
+    ];
+    this.wakeupInterval = null;
+  }
+
+  async wakeupBackends() {
+    console.log('🚀 Waking up backends...');
+    const promises = this.backends.map(backend => 
+      fetch(`${backend.url}/health`, { method: 'GET' })
+        .then(() => console.log(`✅ ${backend.name} awake`))
+        .catch(() => console.log(`⚠️ ${backend.name} still waking...`))
+    );
+    await Promise.allSettled(promises);
+  }
+
+  startPeriodicWakeup() {
+    this.wakeupBackends(); // Immediate wake
+    this.wakeupInterval = setInterval(() => {
+      this.wakeupBackends();
+    }, 12 * 60 * 1000); // Every 12 minutes
+  }
+
+  stopPeriodicWakeup() {
+    if (this.wakeupInterval) {
+      clearInterval(this.wakeupInterval);
+      this.wakeupInterval = null;
+    }
+  }
+}
+
+
 // Session Manager Component
 function SessionManager({ children }) {
   const [isSessionValid, setIsSessionValid] = useState(null);
+  const [wakeupService] = useState(() => new BackendWakeupService());
+
 
   useEffect(() => {
+    // Initialize backend wakeup
+    wakeupService.startPeriodicWakeup();
+
     // Generate unique session ID for this browser instance
     const generateSessionId = () => {
       return Date.now().toString() + Math.random().toString(36).substr(2, 9);
@@ -112,6 +161,7 @@ function SessionManager({ children }) {
         document.removeEventListener(event, handleActivity);
       });
       window.removeEventListener('storage', handleStorageChange);
+      wakeupService.stopPeriodicWakeup();
     };
   }, []);
 
