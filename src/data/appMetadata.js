@@ -10,7 +10,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '5B+',
     tags: ['browser', 'web', 'google', 'chromium'],
-    imageUrl: 'public/app-icons/browser/chrome.png'
+    imageUrl: '/app-icons/browser/chrome.png'
   },
   'firefox': {
     displayName: 'Mozilla Firefox',
@@ -21,7 +21,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '1B+',
     tags: ['browser', 'privacy', 'open-source', 'mozilla'],
-    imageUrl: '/src/assets/app-icons/browser/firefox.png'
+    imageUrl: '/app-icons/browser/firefox.png'
   },
   'chromium': {
     displayName: 'Chromium',
