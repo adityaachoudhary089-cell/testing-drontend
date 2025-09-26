@@ -54,7 +54,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '200M+',
     tags: ['browser', 'vpn', 'features'],
-    imageUrl: '/src/assets/app-icons/browser/opera.png'
+    imageUrl: '/app-icons/browser/opera.png'
   },
   'edge': {
     displayName: 'Microsoft Edge',
@@ -65,7 +65,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '500M+',
     tags: ['browser', 'microsoft', 'security'],
-    imageUrl: '/src/assets/app-icons/browser/edge.png'
+    imageUrl: '/app-icons/browser/edge.png'
   },
 
   // === IDEs & CODE EDITORS (15) ===
@@ -78,7 +78,7 @@ export const appMetadata = {
     rating: 4.8,
     downloads: '100M+',
     tags: ['editor', 'ide', 'javascript', 'typescript'],
-    imageUrl: '/src/assets/app-icons/ide/vscode.png'
+    imageUrl: '/app-icons/ide/vscode.png'
   },
   'intellij': {
     displayName: 'IntelliJ IDEA Community',
@@ -89,7 +89,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '50M+',
     tags: ['ide', 'java', 'kotlin', 'smart'],
-    imageUrl: '/src/assets/app-icons/ide/intellij.png'
+    imageUrl: '/app-icons/ide/intellij.png'
   },
   'pycharm': {
     displayName: 'PyCharm Community',
@@ -100,7 +100,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '20M+',
     tags: ['python', 'ide', 'debugging', 'smart'],
-    imageUrl: '/src/assets/app-icons/ide/pycharm.png'
+    imageUrl: '/app-icons/ide/pycharm.png'
   },
   'eclipse': {
     displayName: 'Eclipse IDE',
@@ -111,7 +111,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '15M+',
     tags: ['java', 'ide', 'plugins', 'enterprise'],
-    imageUrl: '/src/assets/app-icons/ide/eclipse.png'
+    imageUrl: '/app-icons/ide/eclipse.png'
   },
   'netbeans': {
     displayName: 'NetBeans IDE',
@@ -122,7 +122,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '12M+',
     tags: ['java', 'ide', 'open-source', 'apache'],
-    imageUrl: '/src/assets/app-icons/ide/netbeans.png'
+    imageUrl: '/app-icons/ide/netbeans.png'
   },
   'sublime': {
     displayName: 'Sublime Text',
@@ -133,7 +133,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '25M+',
     tags: ['editor', 'fast', 'plugins'],
-    imageUrl: '/src/assets/app-icons/ide/sublime.png'
+    imageUrl: '/app-icons/ide/sublime.png'
   },
   'atom': {
     displayName: 'Atom',
@@ -144,7 +144,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '20M+',
     tags: ['editor', 'hackable', 'packages'],
-    imageUrl: '/src/assets/app-icons/ide/atom.png'
+    imageUrl: '/app-icons/ide/atom.png'
   },
   'vim': {
     displayName: 'Vim',
@@ -155,7 +155,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '10M+',
     tags: ['editor', 'terminal', 'powerful', 'modal'],
-    imageUrl: '/src/assets/app-icons/ide/vim.png'
+    imageUrl: '/app-icons/ide/vim.png'
   },
   'emacs': {
     displayName: 'Emacs',
@@ -166,7 +166,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['editor', 'extensible', 'lisp'],
-    imageUrl: '/src/assets/app-icons/ide/emacs.png'
+    imageUrl: '/app-icons/ide/emacs.png'
   },
   'androidstudio': {
     displayName: 'Android Studio',
@@ -177,7 +177,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '30M+',
     tags: ['android', 'ide', 'mobile', 'java'],
-    imageUrl: '/src/assets/app-icons/ide/androidstudio.png'
+    imageUrl: '/app-icons/ide/androidstudio.png'
   },
   'codeblocks': {
     displayName: 'Code::Blocks',
@@ -188,7 +188,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '8M+',
     tags: ['c++', 'c', 'ide', 'cross-platform'],
-    imageUrl: '/src/assets/app-icons/ide/codeblocks.png'
+    imageUrl: '/app-icons/ide/codeblocks.png'
   },
   'qtcreator': {
     displayName: 'Qt Creator',
@@ -199,7 +199,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '8M+',
     tags: ['qt', 'c++', 'gui', 'cross-platform'],
-    imageUrl: '/src/assets/app-icons/ide/qtcreator.png'
+    imageUrl: '/app-icons/ide/qtcreator.png'
   },
   'geany': {
     displayName: 'Geany',
@@ -210,7 +210,7 @@ export const appMetadata = {
     rating: 4.0,
     downloads: '5M+',
     tags: ['lightweight', 'ide', 'fast'],
-    imageUrl: '/src/assets/app-icons/ide/geany.png'
+    imageUrl: '/app-icons/ide/geany.png'
   },
   'bluefish': {
     displayName: 'Bluefish Editor',
@@ -221,7 +221,7 @@ export const appMetadata = {
     rating: 4.0,
     downloads: '2M+',
     tags: ['web', 'html', 'css', 'editor'],
-    imageUrl: '/src/assets/app-icons/ide/bluefish.png'
+    imageUrl: '/app-icons/ide/bluefish.png'
   },
   'notepadqq': {
     displayName: 'Notepadqq',
@@ -232,7 +232,7 @@ export const appMetadata = {
     rating: 3.9,
     downloads: '3M+',
     tags: ['text-editor', 'notepad++', 'simple'],
-    imageUrl: '/src/assets/app-icons/ide/notepadqq.png'
+    imageUrl: '/app-icons/ide/notepadqq.png'
   },
 
   // === PROGRAMMING LANGUAGES (18) ===
@@ -245,7 +245,7 @@ export const appMetadata = {
     rating: 4.8,
     downloads: '100M+',
     tags: ['javascript', 'runtime', 'npm', 'server'],
-    imageUrl: '/src/assets/app-icons/programing/nodejs.png'
+    imageUrl: '/app-icons/programing/nodejs.png'
   },
   'python3': {
     displayName: 'Python 3 & pip',
@@ -256,7 +256,7 @@ export const appMetadata = {
     rating: 4.9,
     downloads: '200M+',
     tags: ['python', 'programming', 'pip', 'scripting'],
-    imageUrl: '/src/assets/app-icons/programing/python3.png'
+    imageUrl: '/app-icons/programing/python3.png'
   },
   'java': {
     displayName: 'OpenJDK (Java)',
@@ -267,7 +267,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '500M+',
     tags: ['java', 'jdk', 'enterprise', 'programming'],
-    imageUrl: '/src/assets/app-icons/programing/java.png'
+    imageUrl: '/app-icons/programing/java.png'
   },
   'go': {
     displayName: 'Go (Golang)',
@@ -278,7 +278,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '15M+',
     tags: ['go', 'golang', 'concurrent', 'google'],
-    imageUrl: '/src/assets/app-icons/programing/golang.png'
+    imageUrl: '/app-icons/programing/golang.png'
   },
   'rust': {
     displayName: 'Rust & Cargo',
@@ -289,7 +289,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '10M+',
     tags: ['rust', 'systems', 'memory-safe', 'cargo'],
-    imageUrl: '/src/assets/app-icons/programing/rust.png'
+    imageUrl: '/app-icons/programing/rust.png'
   },
   'php': {
     displayName: 'PHP',
@@ -300,7 +300,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '80M+',
     tags: ['php', 'web', 'scripting', 'server-side'],
-    imageUrl: '/src/assets/app-icons/programing/php.png'
+    imageUrl: '/app-icons/programing/php.png'
   },
   'ruby': {
     displayName: 'Ruby & Gems',
@@ -311,7 +311,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '15M+',
     tags: ['ruby', 'dynamic', 'gems', 'rails'],
-    imageUrl: '/src/assets/app-icons/programing/ruby and gems.png'
+    imageUrl: '/app-icons/programing/ruby and gems.png'
   },
   'gcc': {
     displayName: 'GCC Compiler',
@@ -322,7 +322,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '50M+',
     tags: ['gcc', 'c', 'c++', 'compiler', 'gnu'],
-    imageUrl: '/src/assets/app-icons/programing/gcc.png'
+    imageUrl: '/app-icons/programing/gcc.png'
   },
   'clang': {
     displayName: 'Clang Compiler',
@@ -333,7 +333,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '25M+',
     tags: ['c', 'c++', 'compiler', 'llvm', 'clang'],
-    imageUrl: '/src/assets/app-icons/programing/clang.png'
+    imageUrl: '/app-icons/programing/clang.png'
   },
   'dotnet': {
     displayName: '.NET Core SDK',
@@ -344,7 +344,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '30M+',
     tags: ['dotnet', 'csharp', 'cross-platform', 'microsoft'],
-    imageUrl: '/src/assets/app-icons/programing/dotnet.png'
+    imageUrl: '/app-icons/programing/dotnet.png'
   },
   'kotlin': {
     displayName: 'Kotlin',
@@ -355,7 +355,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '12M+',
     tags: ['kotlin', 'jvm', 'android', 'modern', 'jetbrains'],
-    imageUrl: '/src/assets/app-icons/programing/kotlin.png'
+    imageUrl: '/app-icons/programing/kotlin.png'
   },
   'scala': {
     displayName: 'Scala',
@@ -366,7 +366,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['scala', 'jvm', 'functional', 'object-oriented'],
-    imageUrl: '/src/assets/app-icons/programing/scala.png'
+    imageUrl: '/app-icons/programing/scala.png'
   },
   'dart': {
     displayName: 'Dart SDK',
@@ -377,7 +377,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '8M+',
     tags: ['dart', 'flutter', 'mobile', 'web', 'google'],
-    imageUrl: '/src/assets/app-icons/programing/dart.png'
+    imageUrl: '/app-icons/programing/dart.png'
   },
   'r': {
     displayName: 'R Language',
@@ -388,7 +388,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '10M+',
     tags: ['r', 'statistics', 'data-science', 'analytics'],
-    imageUrl: '/src/assets/app-icons/programing/rlanguage.png'
+    imageUrl: '/app-icons/programing/rlanguage.png'
   },
   'perl': {
     displayName: 'Perl',
@@ -399,7 +399,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '8M+',
     tags: ['perl', 'scripting', 'regex', 'text-processing'],
-    imageUrl: '/src/assets/app-icons/programing/perl.png'
+    imageUrl: '/app-icons/programing/perl.png'
   },
   'lua': {
     displayName: 'Lua',
@@ -410,7 +410,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['lua', 'scripting', 'lightweight', 'embedded'],
-    imageUrl: '/src/assets/app-icons/programing/lua.png'
+    imageUrl: '/app-icons/programing/lua.png'
   },
   'erlang': {
     displayName: 'Erlang',
@@ -421,7 +421,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '2M+',
     tags: ['erlang', 'concurrent', 'fault-tolerant', 'distributed'],
-    imageUrl: '/src/assets/app-icons/programing/erlang.png'
+    imageUrl: '/app-icons/programing/erlang.png'
   },
   'julia': {
     displayName: 'Julia',
@@ -432,7 +432,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '3M+',
     tags: ['julia', 'scientific', 'performance', 'computing'],
-    imageUrl: '/src/assets/app-icons/programing/julia.png'
+    imageUrl: '/app-icons/programing/julia.png'
   },
 
   // === VERSION CONTROL (6) ===
@@ -445,7 +445,7 @@ export const appMetadata = {
     rating: 4.9,
     downloads: '1B+',
     tags: ['version-control', 'distributed', 'source-code', 'git'],
-    imageUrl: '/src/assets/app-icons/version control/git.png'
+    imageUrl: '/app-icons/version control/git.png'
   },
   'githubcli': {
     displayName: 'GitHub CLI',
@@ -456,7 +456,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '12M+',
     tags: ['github', 'cli', 'command-line', 'git'],
-    imageUrl: '/src/assets/app-icons/version control/githubcli.png'
+    imageUrl: '/app-icons/version control/githubcli.png'
   },
   'gitkraken': {
     displayName: 'GitKraken',
@@ -467,7 +467,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '8M+',
     tags: ['git', 'gui', 'cross-platform', 'visual', 'merge'],
-    imageUrl: '/src/assets/app-icons/version control/gitkraken.png'
+    imageUrl: '/app-icons/version control/gitkraken.png'
   },
   'gitg': {
     displayName: 'GitG',
@@ -478,7 +478,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '3M+',
     tags: ['git', 'gui', 'graphical', 'gnome'],
-    imageUrl: '/src/assets/app-icons/version control/gitg.png'
+    imageUrl: '/app-icons/version control/gitg.png'
   },
   'meld': {
     displayName: 'Meld Diff Viewer',
@@ -489,7 +489,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '5M+',
     tags: ['diff', 'merge', 'visual', 'comparison'],
-    imageUrl: '/src/assets/app-icons/version control/meld.png'
+    imageUrl: '/app-icons/version control/meld.png'
   },
   'svn': {
     displayName: 'Subversion',
@@ -500,7 +500,7 @@ export const appMetadata = {
     rating: 4.0,
     downloads: '20M+',
     tags: ['svn', 'centralized', 'version-control', 'apache'],
-    imageUrl: '/src/assets/app-icons/version control/svn.png'
+    imageUrl: '/app-icons/version control/svn.png'
   },
 
   // === DATABASES (10) ===
@@ -513,7 +513,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '100M+',
     tags: ['mysql', 'relational', 'sql', 'server', 'database'],
-    imageUrl: '/src/assets/app-icons/version control/mysql.png'
+    imageUrl: '/app-icons/version control/mysql.png'
   },
   'postgresql': {
     displayName: 'PostgreSQL',
@@ -524,7 +524,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '80M+',
     tags: ['postgresql', 'relational', 'advanced', 'sql', 'json'],
-    imageUrl: '/src/assets/app-icons/version control/postgresql.png'
+    imageUrl: '/app-icons/version control/postgresql.png'
   },
   'mongodb': {
     displayName: 'MongoDB',
@@ -535,7 +535,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '30M+',
     tags: ['nosql', 'document', 'mongodb', 'json', 'flexible'],
-    imageUrl: '/src/assets/app-icons/version control/mongodb.png'
+    imageUrl: '/app-icons/version control/mongodb.png'
   },
   'redis': {
     displayName: 'Redis',
@@ -546,7 +546,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '40M+',
     tags: ['redis', 'cache', 'in-memory', 'key-value', 'fast'],
-    imageUrl: '/src/assets/app-icons/version control/redis.png'
+    imageUrl: '/app-icons/version control/redis.png'
   },
   'sqlite': {
     displayName: 'SQLite',
@@ -557,7 +557,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '200M+',
     tags: ['sqlite', 'embedded', 'lightweight', 'sql', 'local'],
-    imageUrl: '/src/assets/app-icons/version control/sqlite.png'
+    imageUrl: '/app-icons/version control/sqlite.png'
   },
   'mariadb': {
     displayName: 'MariaDB',
@@ -568,7 +568,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '25M+',
     tags: ['mysql', 'relational', 'open-source', 'sql', 'mariadb'],
-    imageUrl: '/src/assets/app-icons/version control/mariadb.png'
+    imageUrl: '/app-icons/version control/mariadb.png'
   },
   'dbeaver': {
     displayName: 'DBeaver',
@@ -579,7 +579,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '15M+',
     tags: ['database', 'sql', 'universal', 'gui', 'management'],
-    imageUrl: '/src/assets/app-icons/version control/dbeaver.png'
+    imageUrl: '/app-icons/version control/dbeaver.png'
   },
   'adminer': {
     displayName: 'Adminer',
@@ -590,7 +590,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['database', 'management', 'web', 'php', 'adminer'],
-    imageUrl: '/src/assets/app-icons/version control/adminer.png'
+    imageUrl: '/app-icons/version control/adminer.png'
   },
   'phpmyadmin': {
     displayName: 'phpMyAdmin',
@@ -601,7 +601,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '50M+',
     tags: ['mysql', 'web', 'administration', 'php', 'mariadb'],
-    imageUrl: '/src/assets/app-icons/version control/phpmyadmin.png'
+    imageUrl: '/app-icons/version control/phpmyadmin.png'
   },
   'sqlitebrowser': {
     displayName: 'SQLite Browser',
@@ -612,7 +612,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '8M+',
     tags: ['sqlite', 'browser', 'visual', 'gui', 'database'],
-    imageUrl: '/src/assets/app-icons/version control/sqlitebrowser.png'
+    imageUrl: '/app-icons/version control/sqlitebrowser.png'
   },
 
   // === DEVOPS & CONTAINERS (12) ===
@@ -625,7 +625,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '100M+',
     tags: ['containers', 'virtualization', 'deployment', 'docker'],
-    imageUrl: '/src/assets/app-icons/devops/docker.png'
+    imageUrl: '/app-icons/devops/docker.png'
   },
   'dockercompose': {
     displayName: 'Docker Compose',
@@ -636,7 +636,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '80M+',
     tags: ['docker', 'compose', 'multi-container', 'orchestration'],
-    imageUrl: '/src/assets/app-icons/devops/dockercompose.png'
+    imageUrl: '/app-icons/devops/dockercompose.png'
   },
   'kubectl': {
     displayName: 'Kubernetes (kubectl)',
@@ -647,7 +647,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '50M+',
     tags: ['kubernetes', 'orchestration', 'containers', 'kubectl'],
-    imageUrl: '/src/assets/app-icons/devops/kubectl.png'
+    imageUrl: '/app-icons/devops/kubectl.png'
   },
   'minikube': {
     displayName: 'Minikube',
@@ -658,7 +658,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '12M+',
     tags: ['kubernetes', 'local', 'development', 'testing'],
-    imageUrl: '/src/assets/app-icons/devops/minikube.png'
+    imageUrl: '/app-icons/devops/minikube.png'
   },
   'terraform': {
     displayName: 'Terraform',
@@ -669,7 +669,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '40M+',
     tags: ['infrastructure', 'iac', 'terraform', 'hashicorp'],
-    imageUrl: '/src/assets/app-icons/devops/terraform.png'
+    imageUrl: '/app-icons/devops/terraform.png'
   },
   'ansible': {
     displayName: 'Ansible',
@@ -680,7 +680,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '25M+',
     tags: ['automation', 'configuration', 'infrastructure', 'yaml'],
-    imageUrl: '/src/assets/app-icons/devops/ansible.png'
+    imageUrl: '/app-icons/devops/ansible.png'
   },
   'vagrant': {
     displayName: 'Vagrant',
@@ -691,7 +691,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '18M+',
     tags: ['vagrant', 'virtualization', 'development', 'environment'],
-    imageUrl: '/src/assets/app-icons/devops/vagrant.png'
+    imageUrl: '/app-icons/devops/vagrant.png'
   },
   'jenkins': {
     displayName: 'Jenkins',
@@ -702,7 +702,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '35M+',
     tags: ['ci-cd', 'automation', 'build', 'deployment'],
-    imageUrl: '/src/assets/app-icons/devops/jenkins.png'
+    imageUrl: '/app-icons/devops/jenkins.png'
   },
   'awscli': {
     displayName: 'AWS CLI',
@@ -713,7 +713,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '50M+',
     tags: ['aws', 'cloud', 'cli', 'amazon'],
-    imageUrl: '/src/assets/app-icons/devops/awscli.png'
+    imageUrl: '/app-icons/devops/awscli.png'
   },
   'azurecli': {
     displayName: 'Azure CLI',
@@ -724,7 +724,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '20M+',
     tags: ['azure', 'cloud', 'cli', 'microsoft'],
-    imageUrl: '/src/assets/app-icons/devops/azurecli.png'
+    imageUrl: '/app-icons/devops/azurecli.png'
   },
   'gcloud': {
     displayName: 'Google Cloud SDK',
@@ -735,7 +735,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '30M+',
     tags: ['gcp', 'cloud', 'cli', 'google'],
-    imageUrl: '/src/assets/app-icons/devops/gcloud.png'
+    imageUrl: '/app-icons/devops/gcloud.png'
   },
   'helm': {
     displayName: 'Helm',
@@ -746,7 +746,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '15M+',
     tags: ['kubernetes', 'package-manager', 'helm', 'charts'],
-    imageUrl: '/src/assets/app-icons/devops/helm.png'
+    imageUrl: '/app-icons/devops/helm.png'
   },
 
   // === WEB DEVELOPMENT (10) ===
@@ -759,7 +759,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '30M+',
     tags: ['api', 'testing', 'development', 'http', 'rest'],
-    imageUrl: '/src/assets/app-icons/web dev tools/postman.png'
+    imageUrl: '/app-icons/web dev tools/postman.png'
   },
   'insomnia': {
     displayName: 'Insomnia',
@@ -770,7 +770,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '8M+',
     tags: ['api', 'rest', 'graphql', 'testing', 'client'],
-    imageUrl: '/src/assets/app-icons/web dev tools/insomnia.png'
+    imageUrl: '/app-icons/web dev tools/insomnia.png'
   },
     'httpie': {
     displayName: 'HTTPie',
@@ -781,7 +781,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['http', 'cli', 'api', 'rest', 'command-line'],
-    imageUrl: '/src/assets/app-icons/web dev tools/httpie.png'
+    imageUrl: '/app-icons/web dev tools/httpie.png'
   },
   'nginx': {
     displayName: 'Nginx',
@@ -792,7 +792,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '100M+',
     tags: ['web-server', 'proxy', 'load-balancer', 'nginx'],
-    imageUrl: '/src/assets/app-icons/web dev tools/nginx.png'
+    imageUrl: '/app-icons/web dev tools/nginx.png'
   },
   'apache': {
     displayName: 'Apache HTTP Server',
@@ -803,7 +803,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '200M+',
     tags: ['web-server', 'apache', 'http', 'modular'],
-    imageUrl: '/src/assets/app-icons/web dev tools/appache.png'
+    imageUrl: '/app-icons/web dev tools/appache.png'
   },
   'nodejs-lts': {
     displayName: 'Node.js LTS',
@@ -814,7 +814,7 @@ export const appMetadata = {
     rating: 4.8,
     downloads: '100M+',
     tags: ['javascript', 'runtime', 'lts', 'production'],
-    imageUrl: '/src/assets/app-icons/web dev tools/nodejs-lts.png'
+    imageUrl: '/app-icons/web dev tools/nodejs-lts.png'
   },
   'yarn': {
     displayName: 'Yarn Package Manager',
@@ -825,7 +825,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '50M+',
     tags: ['javascript', 'package-manager', 'yarn', 'dependencies'],
-    imageUrl: '/src/assets/app-icons/web dev tools/yarn.png'
+    imageUrl: '/app-icons/web dev tools/yarn.png'
   },
   'webpack': {
     displayName: 'Webpack',
@@ -836,7 +836,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '40M+',
     tags: ['bundler', 'javascript', 'webpack', 'build-tool'],
-    imageUrl: '/src/assets/app-icons/web dev tools/webpack.png'
+    imageUrl: '/app-icons/web dev tools/webpack.png'
   },
   'parcel': {
     displayName: 'Parcel',
@@ -847,7 +847,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '5M+',
     tags: ['bundler', 'zero-config', 'build-tool', 'parcel'],
-    imageUrl: '/src/assets/app-icons/web dev tools/parcel.png'
+    imageUrl: '/app-icons/web dev tools/parcel.png'
   },
   'vite': {
     displayName: 'Vite',
@@ -858,7 +858,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '15M+',
     tags: ['build-tool', 'vite', 'fast', 'frontend'],
-    imageUrl: '/src/assets/app-icons/web dev tools/vite.png'
+    imageUrl: '/app-icons/web dev tools/vite.png'
   },
 
   // === COMMUNICATION (10) ===
@@ -871,7 +871,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '500M+',
     tags: ['chat', 'voice', 'gaming', 'communities', 'discord'],
-    imageUrl: '/src/assets/app-icons/comunication/discord.png'
+    imageUrl: '/app-icons/comunication/discord.png'
   },
   'slack': {
     displayName: 'Slack',
@@ -882,7 +882,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '100M+',
     tags: ['team', 'collaboration', 'workspace', 'business'],
-    imageUrl: '/src/assets/app-icons/comunication/slack.png'
+    imageUrl: '/app-icons/comunication/slack.png'
   },
   'zoom': {
     displayName: 'Zoom',
@@ -893,7 +893,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '1B+',
     tags: ['video', 'meetings', 'conference', 'zoom'],
-    imageUrl: '/src/assets/app-icons/comunication/zoom.png'
+    imageUrl: '/app-icons/comunication/zoom.png'
   },
   'telegram': {
     displayName: 'Telegram Desktop',
@@ -904,7 +904,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '1B+',
     tags: ['messaging', 'secure', 'fast', 'telegram'],
-    imageUrl: '/src/assets/app-icons/comunication/telegram.png'
+    imageUrl: '/app-icons/comunication/telegram.png'
   },
   'signal': {
     displayName: 'Signal Desktop',
@@ -915,7 +915,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '50M+',
     tags: ['private', 'encryption', 'secure', 'messaging'],
-    imageUrl: '/src/assets/app-icons/comunication/signal.png'
+    imageUrl: '/app-icons/comunication/signal.png'
   },
   'skype': {
     displayName: 'Skype',
@@ -926,7 +926,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '1B+',
     tags: ['video-call', 'messaging', 'skype', 'microsoft'],
-    imageUrl: '/src/assets/app-icons/comunication/skype.png'
+    imageUrl: '/app-icons/comunication/skype.png'
   },
   'teams': {
     displayName: 'Microsoft Teams',
@@ -937,7 +937,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '250M+',
     tags: ['teams', 'collaboration', 'microsoft', 'enterprise'],
-    imageUrl: '/src/assets/app-icons/comunication/msteams.png'
+    imageUrl: '/app-icons/comunication/msteams.png'
   },
   'thunderbird': {
     displayName: 'Thunderbird',
@@ -948,7 +948,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '30M+',
     tags: ['email', 'thunderbird', 'mozilla', 'calendar'],
-    imageUrl: '/src/assets/app-icons/comunication/thuderbird.png'
+    imageUrl: '/app-icons/comunication/thuderbird.png'
   },
   'whatsapp': {
     displayName: 'WhatsApp Desktop',
@@ -959,7 +959,7 @@ export const appMetadata = {
     rating: 4.0,
     downloads: '100M+',
     tags: ['whatsapp', 'messaging', 'desktop', 'meta'],
-    imageUrl: '/src/assets/app-icons/comunication/whatsapp.png'
+    imageUrl: '/app-icons/comunication/whatsapp.png'
   },
   'element': {
     displayName: 'Element (Matrix)',
@@ -970,7 +970,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '3M+',
     tags: ['matrix', 'secure', 'decentralized', 'encryption'],
-    imageUrl: '/src/assets/app-icons/comunication/element.png'
+    imageUrl: '/app-icons/comunication/element.png'
   },
 
   // === GAMING (3) ===
@@ -983,7 +983,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '1B+',
     tags: ['gaming', 'distribution', 'store', 'social', 'valve'],
-    imageUrl: '/src/assets/app-icons/gaming/steam.png'
+    imageUrl: '/app-icons/gaming/steam.png'
   },
   'lutris': {
     displayName: 'Lutris',
@@ -994,7 +994,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '2M+',
     tags: ['gaming', 'wine', 'emulation', 'linux'],
-    imageUrl: '/src/assets/app-icons/gaming/lutris.png'
+    imageUrl: '/app-icons/gaming/lutris.png'
   },
   'minecraft': {
     displayName: 'Minecraft Launcher',
@@ -1005,7 +1005,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '200M+',
     tags: ['minecraft', 'launcher', 'gaming', 'sandbox'],
-    imageUrl: '/src/assets/app-icons/gaming/minecraft.png'
+    imageUrl: '/app-icons/gaming/minecraft.png'
   },
 
   // === MULTIMEDIA & GRAPHICS (12) ===
@@ -1018,7 +1018,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '50M+',
     tags: ['image-editing', 'graphics', 'photo', 'gnu'],
-    imageUrl: '/src/assets/app-icons/multimedia/gimp.png'
+    imageUrl: '/app-icons/multimedia/gimp.png'
   },
   'inkscape': {
     displayName: 'Inkscape',
@@ -1029,7 +1029,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '25M+',
     tags: ['vector', 'graphics', 'svg', 'design'],
-    imageUrl: '/src/assets/app-icons/multimedia/inkscape.png'
+    imageUrl: '/app-icons/multimedia/inkscape.png'
   },
   'blender': {
     displayName: 'Blender',
@@ -1040,7 +1040,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '30M+',
     tags: ['3d', 'modeling', 'animation', 'rendering'],
-    imageUrl: '/src/assets/app-icons/multimedia/blender.png'
+    imageUrl: '/app-icons/multimedia/blender.png'
   },
   'krita': {
     displayName: 'Krita',
@@ -1051,7 +1051,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '15M+',
     tags: ['painting', 'digital-art', 'illustration', 'kde'],
-    imageUrl: '/src/assets/app-icons/multimedia/krita.png'
+    imageUrl: '/app-icons/multimedia/krita.png'
   },
   'darktable': {
     displayName: 'darktable',
@@ -1062,7 +1062,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '8M+',
     tags: ['photography', 'raw', 'workflow', 'editing'],
-    imageUrl: '/src/assets/app-icons/multimedia/darktable.png'
+    imageUrl: '/app-icons/multimedia/darktable.png'
   },
   'audacity': {
     displayName: 'Audacity',
@@ -1073,7 +1073,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '40M+',
     tags: ['audio', 'editing', 'recording', 'open-source'],
-    imageUrl: '/src/assets/app-icons/multimedia/audacity.png'
+    imageUrl: '/app-icons/multimedia/audacity.png'
   },
   'vlc': {
     displayName: 'VLC Media Player',
@@ -1084,7 +1084,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '1B+',
     tags: ['media-player', 'video', 'audio', 'multimedia'],
-    imageUrl: '/src/assets/app-icons/multimedia/vlc.png'
+    imageUrl: '/app-icons/multimedia/vlc.png'
   },
   'spotify': {
     displayName: 'Spotify',
@@ -1095,7 +1095,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '1B+',
     tags: ['music', 'streaming', 'audio', 'media'],
-    imageUrl: '/src/assets/app-icons/multimedia/spotify.png'
+    imageUrl: '/app-icons/multimedia/spotify.png'
   },
 
   'mpv': {
@@ -1107,7 +1107,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '1B+',
     tags: ['music', 'streaming', 'audio', 'media'],
-    imageUrl: '/src/assets/app-icons/multimedia/mpv.png'
+    imageUrl: '/app-icons/multimedia/mpv.png'
   },
 
 
@@ -1121,7 +1121,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '100M+',
     tags: ['streaming', 'recording', 'video', 'broadcast'],
-    imageUrl: '/src/assets/app-icons/multimedia/obs.png'
+    imageUrl: '/app-icons/multimedia/obs.png'
   },
   'kdenlive': {
     displayName: 'Kdenlive',
@@ -1132,7 +1132,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '12M+',
     tags: ['video-editing', 'kde', 'multimedia', 'editing'],
-    imageUrl: '/src/assets/app-icons/multimedia/kdenlive.png'
+    imageUrl: '/app-icons/multimedia/kdenlive.png'
   },
   // 'openshot': {
   //   displayName: 'OpenShot Video Editor',
@@ -1154,7 +1154,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '25M+',
     tags: ['video-converter', 'transcoder', 'encoding', 'compression'],
-    imageUrl: '/src/assets/app-icons/multimedia/handbrake.png'
+    imageUrl: '/app-icons/multimedia/handbrake.png'
   },
   // 'shotcut': {
   //   displayName: 'Shotcut',
@@ -1178,7 +1178,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '200M+',
     tags: ['office', 'writer', 'calc', 'presentation', 'documents'],
-    imageUrl: '/src/assets/app-icons/office/libreoffice.png'
+    imageUrl: '/app-icons/office/libreoffice.png'
   },
   'onlyoffice': {
     displayName: 'ONLYOFFICE',
@@ -1189,7 +1189,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '15M+',
     tags: ['office', 'documents', 'collaboration', 'productivity'],
-    imageUrl: '/src/assets/app-icons/office/onlyoffice.png'
+    imageUrl: '/app-icons/office/onlyoffice.png'
   },
   'notion': {
     displayName: 'Notion',
@@ -1200,7 +1200,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '50M+',
     tags: ['notes', 'productivity', 'workspace', 'collaboration'],
-    imageUrl: '/src/assets/app-icons/office/notion.png'
+    imageUrl: '/app-icons/office/notion.png'
   },
   'obsidian': {
     displayName: 'Obsidian',
@@ -1211,7 +1211,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '5M+',
     tags: ['notes', 'knowledge-management', 'markdown', 'linking'],
-    imageUrl: '/src/assets/app-icons/office/obsidian.png'
+    imageUrl: '/app-icons/office/obsidian.png'
   },
   'joplin': {
     displayName: 'Joplin',
@@ -1222,7 +1222,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '3M+',
     tags: ['notes', 'todo', 'markdown', 'sync', 'open-source'],
-    imageUrl: '/src/assets/app-icons/office/joplin.png'
+    imageUrl: '/app-icons/office/joplin.png'
   },
   'typora': {
     displayName: 'Typora',
@@ -1233,7 +1233,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '8M+',
     tags: ['markdown', 'editor', 'writing', 'minimal'],
-    imageUrl: '/src/assets/app-icons/office/typora.png'
+    imageUrl: '/app-icons/office/typora.png'
   },
   'calligra': {
     displayName: 'Calligra',
@@ -1244,7 +1244,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/calligra.png'
+    imageUrl: '/app-icons/office/calligra.png'
   },
   // 'marktext': {
   //   displayName: 'Mark Text',
@@ -1266,7 +1266,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/evolution.png'
+    imageUrl: '/app-icons/office/evolution.png'
   },
     'cherrytree': {
     displayName: 'CherryTree',
@@ -1277,7 +1277,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/cherrytree.png'
+    imageUrl: '/app-icons/office/cherrytree.png'
   },
     'zim': {
     displayName: 'Zim',
@@ -1288,7 +1288,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/zim.png'
+    imageUrl: '/app-icons/office/zim.png'
   },
     'toggl': {
     displayName: 'Toggl',
@@ -1299,7 +1299,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/toggl.png'
+    imageUrl: '/app-icons/office/toggl.png'
   },
     'todoist': {
     displayName: 'Todoist',
@@ -1310,7 +1310,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '500K+',
     tags: ['office', 'word-processing', 'spreadsheets', 'presentations'],
-    imageUrl: '/src/assets/app-icons/office/todolist.png'
+    imageUrl: '/app-icons/office/todolist.png'
   },
   // === TERMINAL & SHELL (6) ===
   'ohmyzsh': {
@@ -1322,7 +1322,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '3M+',
     tags: ['terminal', 'fast', 'rust', 'cross-platform'],
-    imageUrl: '/src/assets/app-icons/terminal/ohmyzsh.png'
+    imageUrl: '/app-icons/terminal/ohmyzsh.png'
   },
   'kitty': {
     displayName: 'Kitty',
@@ -1333,7 +1333,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '2M+',
     tags: ['terminal', 'gpu-accelerated', 'advanced', 'fast'],
-    imageUrl: '/src/assets/app-icons/terminal/kitty.png'
+    imageUrl: '/app-icons/terminal/kitty.png'
   },
   'screen': {
     displayName: 'Screen',
@@ -1344,7 +1344,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '1M+',
     tags: ['terminal', 'gpu-accelerated', 'multiplexer', 'lua'],
-    imageUrl: '/src/assets/app-icons/terminal/screen.png'
+    imageUrl: '/app-icons/terminal/screen.png'
   },
   'tmux': {
     displayName: 'tmux',
@@ -1355,7 +1355,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '10M+',
     tags: ['terminal', 'multiplexer', 'sessions', 'productivity'],
-    imageUrl: '/src/assets/app-icons/terminal/tmux.png'
+    imageUrl: '/app-icons/terminal/tmux.png'
   },
   'zsh': {
     displayName: 'Zsh Shell',
@@ -1366,7 +1366,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '15M+',
     tags: ['shell', 'zsh', 'customization', 'productivity'],
-    imageUrl: '/src/assets/app-icons/terminal/zsh.png'
+    imageUrl: '/app-icons/terminal/zsh.png'
   },
   'fish': {
     displayName: 'Fish Shell',
@@ -1377,7 +1377,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/fishshell.png'
+    imageUrl: '/app-icons/terminal/fishshell.png'
   },
   'tilix': {
     displayName: 'Tilix',
@@ -1388,7 +1388,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/tilix.png'
+    imageUrl: '/app-icons/terminal/tilix.png'
   },
   'terminator': {
     displayName: 'Terminator',
@@ -1399,7 +1399,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/terminator.png'
+    imageUrl: '/app-icons/terminal/terminator.png'
   },
   // 'terminator': {
   //   displayName: 'Terminator',
@@ -1421,7 +1421,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/terminator.png'
+    imageUrl: '/app-icons/terminal/terminator.png'
   },
   'fzf': {
     displayName: 'fzf',
@@ -1432,7 +1432,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/fzf.png'
+    imageUrl: '/app-icons/terminal/fzf.png'
   },
   'bat': {
     displayName: 'bat',
@@ -1443,7 +1443,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/bat.png'
+    imageUrl: '/app-icons/terminal/bat.png'
   },
   'htop': {
     displayName: 'htop',
@@ -1454,7 +1454,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '5M+',
     tags: ['shell', 'fish', 'autocompletion', 'user-friendly'],
-    imageUrl: '/src/assets/app-icons/terminal/htop.png'
+    imageUrl: '/app-icons/terminal/htop.png'
   },
     'neofetch': {
     displayName: 'Neofetch',
@@ -1465,7 +1465,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '5M+',
     tags: ['system-info', 'bash', 'terminal', 'ascii'],
-    imageUrl: '/src/assets/app-icons/terminal/neofetch.png'
+    imageUrl: '/app-icons/terminal/neofetch.png'
   },
   
 
@@ -1493,7 +1493,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '10M+',
     tags: ['partition', 'disk', 'gparted', 'gnome'],
-    imageUrl: '/src/assets/app-icons/systemutils/gparted.png'
+    imageUrl: '/app-icons/systemutils/gparted.png'
   },
   'timeshift': {
     displayName: 'Timeshift',
@@ -1504,7 +1504,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '3M+',
     tags: ['backup', 'restore', 'snapshots', 'system'],
-    imageUrl: '/src/assets/app-icons/systemutils/timeshift.png'
+    imageUrl: '/app-icons/systemutils/timeshift.png'
   },
   'bleachbit': {
     displayName: 'BleachBit',
@@ -1515,7 +1515,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '8M+',
     tags: ['cleaner', 'privacy', 'disk-space', 'maintenance'],
-    imageUrl: '/src/assets/app-icons/systemutils/bleachbit.png'
+    imageUrl: '/app-icons/systemutils/bleachbit.png'
   },
   'stacer': {
     displayName: 'Stacer',
@@ -1526,7 +1526,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '2M+',
     tags: ['optimizer', 'monitoring', 'system', 'performance'],
-    imageUrl: '/src/assets/app-icons/systemutils/stacer.png'
+    imageUrl: '/app-icons/systemutils/stacer.png'
   },
   'cpu-x': {
     displayName: 'CPU-X',
@@ -1548,7 +1548,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['disk-usage', 'analyzer', 'gnome', 'storage'],
-    imageUrl: '/src/assets/app-icons/systemutils/baobab.png'
+    imageUrl: '/app-icons/systemutils/baobab.png'
   },
   'curl': {
     displayName: 'Curl',
@@ -1559,7 +1559,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['network', 'command-line', 'transfer', 'data'],
-    imageUrl: '/src/assets/app-icons/systemutils/curl.png'
+    imageUrl: '/app-icons/systemutils/curl.png'
   },
   'wget': {
     displayName: 'Wget',
@@ -1570,7 +1570,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['network', 'command-line', 'transfer', 'data'],
-    imageUrl: '/src/assets/app-icons/systemutils/wget.png'
+    imageUrl: '/app-icons/systemutils/wget.png'
   },
   'synaptic': {
     displayName: 'Synaptic',
@@ -1581,7 +1581,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['network', 'command-line', 'transfer', 'data'],
-    imageUrl: '/src/assets/app-icons/systemutils/synaptic.png'
+    imageUrl: '/app-icons/systemutils/synaptic.png'
   },
   'gnome-tweaks': {
     displayName: 'GNOME Tweaks',
@@ -1592,7 +1592,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['network', 'command-line', 'transfer', 'data'],
-    imageUrl: '/src/assets/app-icons/systemutils/gnome-tweaks.png'
+    imageUrl: '/app-icons/systemutils/gnome-tweaks.png'
   },
    'tree': {
     displayName: 'Tree',
@@ -1603,7 +1603,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '5M+',
     tags: ['network', 'command-line', 'transfer', 'data'],
-    imageUrl: '/src/assets/app-icons/systemutils/tree.png'
+    imageUrl: '/app-icons/systemutils/tree.png'
   },
   
   
@@ -1697,7 +1697,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '15M+',
     tags: ['file-manager', 'kde', 'advanced', 'customizable'],
-    imageUrl: '/src/assets/app-icons/filemanagement/dolphin.png'
+    imageUrl: '/app-icons/filemanagement/dolphin.png'
   },
   'nautilus': {
     displayName: 'Nautilus (Files)',
@@ -1708,7 +1708,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '100M+',
     tags: ['file-manager', 'gnome', 'default', 'clean'],
-    imageUrl: '/src/assets/app-icons/filemanagement/nautilus.png'
+    imageUrl: '/app-icons/filemanagement/nautilus.png'
   },
   'thunar': {
     displayName: 'Thunar',
@@ -1719,7 +1719,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '10M+',
     tags: ['file-manager', 'xfce', 'fast', 'lightweight'],
-    imageUrl: '/src/assets/app-icons/filemanagement/thunar.png'
+    imageUrl: '/app-icons/filemanagement/thunar.png'
   },
   'ranger': {
     displayName: 'Ranger',
@@ -1730,7 +1730,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '2M+',
     tags: ['file-manager', 'console', 'vi-keys', 'preview'],
-    imageUrl: '/src/assets/app-icons/filemanagement/ranger.png'
+    imageUrl: '/app-icons/filemanagement/ranger.png'
   },
   'midnight-commander': {
     displayName: 'Midnight Commander',
@@ -1741,7 +1741,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['file-manager', 'orthodox', 'two-panel', 'mc'],
-    imageUrl: '/src/assets/app-icons/filemanagement/midnight-commander.png'
+    imageUrl: '/app-icons/filemanagement/midnight-commander.png'
   },
 
     'mc': {
@@ -1753,7 +1753,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['file-manager', 'orthodox', 'two-panel', 'mc'],
-    imageUrl: '/src/assets/app-icons/filemanagement/midnight-commander.png'
+    imageUrl: '/app-icons/filemanagement/midnight-commander.png'
   },
     'filezilla': {
     displayName: 'FileZilla',
@@ -1764,7 +1764,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['file-manager', 'ftp', 'cross-platform', 'client'],
-    imageUrl: '/src/assets/app-icons/filemanagement/filezilla.png'
+    imageUrl: '/app-icons/filemanagement/filezilla.png'
   },
 
     'p7zip': {
@@ -1776,7 +1776,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['file-manager', 'compression', 'command-line', 'unix'],
-    imageUrl: '/src/assets/app-icons/filemanagement/p7zip.png'
+    imageUrl: '/app-icons/filemanagement/p7zip.png'
   },
     'ark': {
     displayName: 'Ark',
@@ -1787,7 +1787,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '5M+',
     tags: ['file-manager', 'compression', 'command-line', 'unix'],
-    imageUrl: '/src/assets/app-icons/filemanagement/ark.png'
+    imageUrl: '/app-icons/filemanagement/ark.png'
   },
   // 'nemo': {
   //   displayName: 'Nemo',
@@ -1833,7 +1833,7 @@ export const appMetadata = {
     rating: 4.7,
     downloads: '10M+',
     tags: ['password-manager', 'encryption', 'security', 'cross-platform'],
-    imageUrl: '/src/assets/app-icons/security/keepassxc.png'
+    imageUrl: '/app-icons/security/keepassxc.png'
   },
   'bitwarden': {
     displayName: 'Bitwarden',
@@ -1844,7 +1844,7 @@ export const appMetadata = {
     rating: 4.6,
     downloads: '5M+',
     tags: ['password-manager', 'cloud-sync', 'open-source', 'security'],
-    imageUrl: '/src/assets/app-icons/security/bitwarden.png'
+    imageUrl: '/app-icons/security/bitwarden.png'
   },
   // 'veracrypt': {
   //   displayName: 'VeraCrypt',
@@ -1877,7 +1877,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '5M+',
     tags: ['antivirus', 'malware', 'security', 'scanning'],
-    imageUrl: '/src/assets/app-icons/security/clamav.png'
+    imageUrl: '/app-icons/security/clamav.png'
   },
 
     'openvpn': {
@@ -1889,7 +1889,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '5M+',
     tags: ['vpn', 'security', 'network'],
-    imageUrl: '/src/assets/app-icons/security/openvpn.png'
+    imageUrl: '/app-icons/security/openvpn.png'
   },
   'wireguard': {
     displayName: 'WireGuard',
@@ -1900,7 +1900,7 @@ export const appMetadata = {
     rating: 4.1,
     downloads: '5M+',
     tags: ['vpn', 'security', 'network'],
-    imageUrl: '/src/assets/app-icons/security/wireguard.png'
+    imageUrl: '/app-icons/security/wireguard.png'
   },
   // 'gufw': {
   //   displayName: 'GUFW',
@@ -1924,7 +1924,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '50M+',
     tags: ['virtualization', 'vm', 'oracle', 'cross-platform'],
-    imageUrl: '/src/assets/app-icons/virtualization/virtualbox.png'
+    imageUrl: '/app-icons/virtualization/virtualbox.png'
   },
   'qemu': {
     displayName: 'QEMU',
@@ -1935,7 +1935,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '10M+',
     tags: ['virtualization', 'emulator', 'kvm', 'open-source'],
-    imageUrl: '/src/assets/app-icons/virtualization/qemu.png'
+    imageUrl: '/app-icons/virtualization/qemu.png'
   },
   'gnome-boxes': {
     displayName: 'GNOME Boxes',
@@ -1946,7 +1946,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '10M+',
     tags: ['virtualization', 'emulator', 'kvm', 'open-source'],
-    imageUrl: '/src/assets/app-icons/virtualization/gnome-boxes.png'
+    imageUrl: '/app-icons/virtualization/gnome-boxes.png'
   },
   // 'virt-manager': {
   //   displayName: 'Virtual Machine Manager',
@@ -1981,7 +1981,7 @@ export const appMetadata = {
     rating: 4.5,
     downloads: '100M+',
     tags: ['build-tool', 'make', 'automation', 'gnu'],
-    imageUrl: '/src/assets/app-icons/build tools/gnu-make.png'
+    imageUrl: '/app-icons/build tools/gnu-make.png'
   },
   'cmake': {
     displayName: 'CMake',
@@ -1992,7 +1992,7 @@ export const appMetadata = {
     rating: 4.3,
     downloads: '25M+',
     tags: ['build-system', 'cmake', 'cross-platform', 'c++'],
-    imageUrl: '/src/assets/app-icons/build tools/cmake.png'
+    imageUrl: '/app-icons/build tools/cmake.png'
   },
   // 'autotools': {
   //   displayName: 'GNU Autotools',
@@ -2014,7 +2014,7 @@ export const appMetadata = {
     rating: 4.4,
     downloads: '20M+',
     tags: ['build-system', 'ninja', 'fast', 'speed'],
-    imageUrl: '/src/assets/app-icons/build tools/ninja.png'
+    imageUrl: '/app-icons/build tools/ninja.png'
   },
   'meson': {
     displayName: 'Meson Build',
@@ -2048,7 +2048,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '8M+',
     tags: ['build-system', 'gradle', 'java', 'automation'],
-    imageUrl: '/src/assets/app-icons/build tools/gradle.png'
+    imageUrl: '/app-icons/build tools/gradle.png'
   },
 
     'meson': {
@@ -2060,7 +2060,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '8M+',
     tags: ['build-system', 'meson', 'fast', 'python'],
-    imageUrl: '/src/assets/app-icons/build tools/meson.png'
+    imageUrl: '/app-icons/build tools/meson.png'
   },
     'maven': {
     displayName: 'Maven',
@@ -2071,7 +2071,7 @@ export const appMetadata = {
     rating: 4.2,
     downloads: '8M+',
     tags: ['build-system', 'maven', 'java', 'automation'],
-    imageUrl: '/src/assets/app-icons/build tools/maven.png'
+    imageUrl: '/app-icons/build tools/maven.png'
   },
 };
 
