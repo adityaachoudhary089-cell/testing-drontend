@@ -90,10 +90,10 @@ export function DistroSelection({ onBack, onSelectDistro }) {
             gradientTo: 'to-slate-600/40'
           },
           popos: {
-            color: 'bg-orange-600',
-            hoverGlow: 'from-orange-300/90 via-amber-400/80 to-yellow-600/90',
-            gradientFrom: 'from-orange-400/40',
-            gradientTo: 'to-yellow-500/40'
+            color: 'bg-purple-500',
+            hoverGlow: 'from-purple-300/90 via-violet-400/80 to-fuchsia-600/90',
+            gradientFrom: 'from-purple-400/40',
+            gradientTo: 'to-fuchsia-500/40'
           }
         };
 
