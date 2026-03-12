@@ -69,7 +69,7 @@ export function Hero() {
               <Button 
                 variant="outline" 
                 size="lg" 
-                onClick={() => window.open('https://github.com/AngryVanar')}
+                onClick={() => window.open('https://github.com')}
                 className="w-full sm:w-auto border-2 backdrop-blur-md bg-background/40 hover:bg-background/60 hover:shadow-xl hover:shadow-primary/15 transform hover:scale-105 transition-all duration-500 border-white/20 hover:border-white/30"
               >
                 <Github className="mr-2 h-4 w-4" />
